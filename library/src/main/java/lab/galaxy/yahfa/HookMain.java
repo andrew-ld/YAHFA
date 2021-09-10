@@ -26,7 +26,7 @@ public class HookMain {
 //        isDebugModeEnabledR = b;
 //    }
 
-    static {
+    public static void doInit() {
         System.loadLibrary("yahfa");
         // Android SDK Ver
         int buildSdk = Build.VERSION.SDK_INT;
